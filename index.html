@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="style.css"></link>
+	<title>Draw Name Game</title>
+</head>
+<body>
+
+
+	<div class="container1">
+		<h2>Welcome to the Draw Name game</h2>
+		<div class="input-group mb-3">
+
+			<input id="textInput" type="text" class="form-control" placeholder="Enter a name here" aria-label="Enter a Name Here" aria-describedby="basic-addon2"></input>
+
+			<button class="btn btn-primary" onClick="enterNameButton()">Enter a Name</button>	  
+		</div>	
+	</div>
+
+	<div id="showPlacement"></div>
+		<br>
+		<br>
+
+
+	<div class = "buttons">
+		<div class="drawName">
+			<button id="drawNameButton" class="btn btn-primary" onClick="drawName()">Draw Name</button>
+		</div>
+
+		<div>
+			<button id="resetButton" class="btn btn-danger" onClick="reset()">reset</button>
+		</div>
+
+	</div>
+		
+
+	<div class="container2">
+		<h4>List of Names</h4>
+		<div id="listOfNames"></div>			
+	</div>
+
+	<div class="container3">
+		<h4>Winner!</h4>
+		<div id="winner">Name of Winner</div>
+	</div>
+
+		
+				
+	
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
